@@ -15,33 +15,74 @@ a{
     text-decoration: none;
 }
 .hotline {
-    font-size: 20px; 
-    color: #005eff; 
+    font-size: 18px; 
+    color: #0078ff; 
     font-weight: bold; 
-    margin-left: 10px; 
+    margin-left: 5px; 
 }
 header ul li:nth-child(3) i {
-    color: #005eff;
-    font-size: 20px;
+    color: #0078ff;
+    font-size: 18px;
 }
 
 header ul li:nth-child(4) i {
-    color: #005eff;
+    color: #0078ff;
     font-size: 24px;
     margin-right: 10px;
 }
 
+header ul li:nth-child(2) input{
+    height: 39px;
+    width: 450px;
+    padding-left: 10px;
+}
+
+header ul li:nth-child(2) i {
+    position: absolute;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    border: 1px solid #0078ff;
+    background-color: #0078ff;
+}
+header ul li:nth-child(3) {
+    text-align: center;
+}
+header ul li:nth-child(4) {
+    text-align: center;
+}
+
 .number {
     font-size: 18px;   
+    font-weight: bold;
 }
 
 header{
     background-color:  white;
 }
 
-header ul{
+header ul, nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+nav{
+    background-color: #0078ff;
+    color: white;
+    font-size: 16px;
+}
 
+nav ul li a{
+    font-weight: 500;  
+    margin-left: 5px;
+    color: white;
+}
+nav ul li{
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+nav ul li:hover{
+    background-color: #3d4960;
+    
+}
